@@ -1,5 +1,6 @@
-- hosts: ci-server
-  vars:
-    hostname: jenkins-example.com
+- name: jenkins
+  hosts: ci
+  remote_user: vagrant
+  sudo: True
   roles:
-    - { role: jenkins }
+    - { role: geerlingguy.jenkins }
