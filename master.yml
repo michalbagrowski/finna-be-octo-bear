@@ -1,4 +1,4 @@
-- name: jenkins
+- name: jenkins-master
   hosts: master
   remote_user: vagrant
   sudo: True

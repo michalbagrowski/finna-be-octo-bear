@@ -1,5 +1,5 @@
-- name: jenkins
-  hosts: ci
+- name: jenkins-slave
+  hosts: slave
   remote_user: vagrant
   sudo: True
   roles:
