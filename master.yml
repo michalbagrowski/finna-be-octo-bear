@@ -1,0 +1,6 @@
+- name: jenkins
+  hosts: master
+  remote_user: vagrant
+  sudo: True
+  roles:
+    - { role: geerlingguy.jenkins }
